@@ -1,6 +1,6 @@
-## eslint-plugin-link-slash-end
+## @hagan/eslint-plugin-link-slash-end
 
-业务需要，所有页面链接必须以 / 结尾进行跳转，但开发人员较多，有时会有的同学忘掉这个规则，导致线上报错，因此开发 `eslint-plugin-link-slash-end` 校验规则
+业务需要，所有页面链接必须以 / 结尾进行跳转，但开发人员较多，有时会有的同学忘掉这个规则，导致线上报错，因此做了这个 `@hagan/eslint-plugin-link-slash-end` 校验规则
 
 ## 使用方法
 
@@ -27,7 +27,7 @@ window.open('/admin/login') // 报错
 
 # 原 README.md
 
-## eslint-plugin-link-slash-end
+## @hagan/eslint-plugin-link-slash-end
 
 页面链接必须以 / 结尾
 
@@ -39,10 +39,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-link-slash-end`:
+Next, install `@hagan/eslint-plugin-link-slash-end`:
 
 ```
-$ npm install eslint-plugin-link-slash-end --save-dev
+$ npm install @hagan/eslint-plugin-link-slash-end --save-dev
 ```
 
 
