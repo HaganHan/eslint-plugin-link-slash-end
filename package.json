@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-link-slash-end",
+  "version": "1.0.0",
+  "description": "链接必须以 / 结尾",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaganHan/eslint-plugin-link-slash-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaganHan/eslint-plugin-link-slash-end/issues"
+  },
+  "homepage": "https://github.com/HaganHan/eslint-plugin-link-slash-end#readme",
+  "devDependencies": {
+    "generator-eslint": "^2.0.0",
+    "yo": "^3.1.1"
+  }
+}
