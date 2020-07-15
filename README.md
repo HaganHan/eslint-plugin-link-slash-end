@@ -1,2 +1,3 @@
 # eslint-plugin-link-slash-end
-ESlint规则
+
+链接必须以 / 结尾
