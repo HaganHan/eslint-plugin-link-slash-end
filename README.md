@@ -4,6 +4,12 @@
 
 ## 使用方法
 
+```shell
+yarn add -D eslint
+yarn add -D @hagan/eslint-plugin-link-slash-end
+```
+
+
 ## 规则说明
 
 此规则主要做如下几个校验
@@ -24,27 +30,6 @@
 window.open('/admin/login/') // 正确
 window.open('/admin/login') // 报错
 ```
-
-# 原 README.md
-
-## @hagan/eslint-plugin-link-slash-end
-
-页面链接必须以 / 结尾
-
-### Installation
-
-You'll first need to install [ESLint](http://eslint.org):
-
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `@hagan/eslint-plugin-link-slash-end`:
-
-```
-$ npm install @hagan/eslint-plugin-link-slash-end --save-dev
-```
-
 
 ### Usage
 
