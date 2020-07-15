@@ -48,3 +48,6 @@ bin-debug
 
 ########### Git ###########
 !.gitkeep
+
+######### project #########
+.version
