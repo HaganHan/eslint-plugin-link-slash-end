@@ -1,6 +1,6 @@
 ## eslint-plugin-link-slash-end
 
-业务需要，所有页面链接必须以 / 结尾进行跳转，但开发人员较多，有时会有的同学忘掉这个规则，导致线上报错，因此做了这个 `eslint-plugin-link-slash-end` 校验规则
+所有 `a` 标签的 `href` 属性必须以 `/` 结尾
 
 ## 使用方法
 
@@ -41,7 +41,7 @@ yarn add -D eslint-plugin-link-slash-end
 <a href="/admin/login"></a>
 ```
 
-2. 校验所有 `window.open()` 的参数是否以 `/` 结尾
+2. 校验所有 `window.open()` 的第一个参数是否以 `/` 结尾
 
 ```js
 window.open('/admin/login/') // 正确
