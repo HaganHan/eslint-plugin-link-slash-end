@@ -1,4 +1,4 @@
-name: '@hagan/eslint-plugin-link-slash-end'
+name: 'eslint-plugin-link-slash-end'
 
 on: 
   push
@@ -23,7 +23,7 @@ jobs:
 
       - name: version # 获取正确版本号
         run: |
-          npm info @hagan/eslint-plugin-link-slash-end version 2> /dev/null && npm info @hagan/eslint-plugin-link-slash-end version > .version || echo 0.0.0 > .version
+          npm info eslint-plugin-link-slash-end version 2> /dev/null && npm info eslint-plugin-link-slash-end version > .version || echo 0.0.0 > .version
           node ./updatePackageVersion.js
           git add .
           git commit -m "update package version"

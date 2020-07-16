@@ -1,12 +1,29 @@
-## @hagan/eslint-plugin-link-slash-end
+## eslint-plugin-link-slash-end
 
-业务需要，所有页面链接必须以 / 结尾进行跳转，但开发人员较多，有时会有的同学忘掉这个规则，导致线上报错，因此做了这个 `@hagan/eslint-plugin-link-slash-end` 校验规则
+业务需要，所有页面链接必须以 / 结尾进行跳转，但开发人员较多，有时会有的同学忘掉这个规则，导致线上报错，因此做了这个 `eslint-plugin-link-slash-end` 校验规则
 
 ## 使用方法
 
 ```shell
-yarn add -D eslint
-yarn add -D @hagan/eslint-plugin-link-slash-end
+yarn add -D eslint-plugin-link-slash-end
+```
+
+在 `.eslint` 文件中添加
+
+```json
+{
+  "plugins": [
+    "link-slash-end"
+  ]
+}
+```
+
+```json
+{
+  "rules": {
+    "link-slash-end/link-slash-end": 2
+  }
+}
 ```
 
 
