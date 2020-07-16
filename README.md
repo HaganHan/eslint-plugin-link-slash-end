@@ -47,32 +47,3 @@ yarn add -D eslint-plugin-link-slash-end
 window.open('/admin/login/') // 正确
 window.open('/admin/login') // 报错
 ```
-
-### Usage
-
-Add `link-slash-end` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
-
-```json
-{
-    "plugins": [
-        "link-slash-end"
-    ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "link-slash-end/rule-name": 2
-    }
-}
-```
-
-### Supported Rules
-
-* Fill in provided rules here
-
-
