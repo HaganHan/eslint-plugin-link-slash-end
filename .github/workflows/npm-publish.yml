@@ -1,7 +1,9 @@
 name: 'eslint-plugin-link-slash-end'
 
 on: 
-  push
+  push:
+    branches:
+      - master
 
 jobs:
   deploy:
