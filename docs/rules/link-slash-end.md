@@ -1,4 +1,4 @@
-# 页面链接必须以 / 结尾 (link-slash-end)
+# 页面路由必须以 '/' 结尾 (link-slash-end)
 
 Please describe the origin of the rule here.
 

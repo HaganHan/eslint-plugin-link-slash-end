@@ -1,5 +1,5 @@
 /**
- * @fileoverview 页面链接必须以 / 结尾
+ * @fileoverview 页面路由必须以 '/' 结尾
  * @author Hagan
  */
 "use strict"
@@ -41,7 +41,7 @@ ruleTester.run("link-slash-end", rule, {
       `,
       errors: [
         {
-          message: "链接必须以 '/' 结尾",
+          message: "页面路由必须以 '/' 结尾",
           type: "JSXElement"
         }
       ]
