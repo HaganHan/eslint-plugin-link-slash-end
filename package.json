@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-link-slash-end",
   "version": "0.0.2",
-  "description": "页面链接必须以 / 结尾",
+  "description": "页面路由必须以 '/' 结尾",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
